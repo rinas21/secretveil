@@ -1,0 +1,39 @@
+{
+  "name": "@rinas21/secretveil",
+  "version": "1.0.0",
+  "description": "Protect application secrets from AI coding agents with encrypted-at-rest storage and runtime injection",
+  "type": "module",
+  "main": "src/cli.js",
+  "bin": {
+    "secretveil": "./bin/secretveil.js"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "pack": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "secret",
+    "encryption",
+    "env",
+    "security",
+    "argon2",
+    "aes-256-gcm"
+  ],
+  "author": "Rinas",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.45.1"
+  },
+  "optionalDependencies": {
+    "keytar": "^7.9.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}

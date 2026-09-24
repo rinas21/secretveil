@@ -1,0 +1,33 @@
+# Node / npm
+npm/node_modules/
+npm/npm-debug.log*
+npm/coverage/
+npm/test-temp/
+npm/.nyc_output/
+npm/.eslintcache
+npm/*.tgz
+
+# Python
+python/__pycache__/
+python/.pytest_cache/
+python/.venv/
+python/*.egg-info/
+python/dist/
+python/build/
+
+# Secrets / environment files
+.env
+*.env
+.env.local
+.env.*
+*.env.example
+.secretveil/
+
+# Temporary / editor files
+tmp/
+.cache/
+.DS_Store
+*.log
+*.swp
+*.swo
+*~
